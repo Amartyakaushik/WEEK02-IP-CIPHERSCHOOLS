@@ -1,0 +1,9 @@
+/* This is an Inline element which is different from other Inline element which  act like Block level element */
+/* It doesn't require to adjust width and height at the same time */
+img{
+    /* width: 300px; */
+    height: 300px;
+    border: 4px ridge black;
+    padding: 10px;
+    margin: 10px;
+}
