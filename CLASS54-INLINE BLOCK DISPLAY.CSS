@@ -1,0 +1,10 @@
+/* Inline element are converted to Inline-block element to make it more responsive to the user */
+
+a{
+    border: 2px solid red;
+    display: inline-block;
+    margin: 20px;
+    padding: 20px;
+    width: 150px;
+    height: 100px;
+}
