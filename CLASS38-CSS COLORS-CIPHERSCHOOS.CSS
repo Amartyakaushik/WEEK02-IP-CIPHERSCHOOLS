@@ -1,0 +1,12 @@
+h1{
+    color: rgb(159, 66, 66);     /*  1st digit is 'R' value , 2nd digit is 'GREEN' value , 3rd digit is 'BLUE' value */
+                                  /* And the range can vary from 0 to 255 only */     
+}
+h3{
+    color: #ffa53d;       /* 1st 2 digits represents 'R' value ,2nd 2 digits represents 'GREEN' value ,last 2 digits represents 'BLUE' value  */
+    background-color: #000;      /*  RANGE --> 0,1,2,3,4,5,6,7,8,9,a,b,c,d,e,f*/
+}
+h4{ 
+    color: #FFF;       
+    background-color: #000;
+}
