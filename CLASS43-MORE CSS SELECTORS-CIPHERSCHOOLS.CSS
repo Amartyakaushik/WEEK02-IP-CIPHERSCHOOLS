@@ -1,0 +1,36 @@
+/* This is Universal tag...*/   /* It converts the color of whole HTML parts*/
+/* *{
+    color: blue;             
+}  */
+
+header{
+    background-color: #f0ebeb;
+}
+
+section.my-articles{
+    background-color: #f2e9e9;
+}
+
+header p{
+    color: red;               /*   Styling  'p' paragraph under header tag */
+}
+
+li a{
+    color: blue;             /*   Styling  'a' anchor tag under list tag */
+}
+
+section.my-articles > h2{
+    color: green;           /*   THIS IS CALLED DIRECT CHILD SELECTOR */    /*   Styling  'h2' head tag which is direct child of section tag */
+}
+
+h2+p{
+    color: purple;                  /*   Styling all 'p' paragraph direct child of 'h2' head2 tag */
+}
+
+ul+p{
+    color: darkorchid;              /*   Styling all 'p' paragraph direct child of 'ul' unordered list tag */
+}
+
+section.my-articles h2+p{
+    color: purple;
+}
