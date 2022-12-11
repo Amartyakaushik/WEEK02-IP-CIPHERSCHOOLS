@@ -1,0 +1,23 @@
+input[type="text"]{
+    color: red;
+    background-color: aliceblue;
+}
+
+input[type="password"]{
+    background-color: pink;
+}
+
+/*  (*=)   styling  any 'a' anchor tag which has 'href' attribute containig 'google' in it.  */
+/* a[href *= "google" ]{
+    color: red;                  
+} */
+
+/*  (^=)   styling  any 'a' anchor tag which has 'href' attribute starts with 'https' .  */
+/* a[href^= "https"]{
+   color: darkgreen;
+} */
+
+/*  ($=)   styling  any 'a' anchor tag which has 'href' attribute ends with '.com'.  */
+a[href $= ".com"]{
+    color: red;
+}
