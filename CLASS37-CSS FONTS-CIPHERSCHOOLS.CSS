@@ -1,0 +1,6 @@
+/* "SAN-SERIF" font is prefered more than "SERFIF" font */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,900&display=swap');    /* One of the way to change the font  */
+body{
+    font-family: 'Roboto', sans-serif;   /*  Another way to change the font  */
+    font-weight: 500;
+}
