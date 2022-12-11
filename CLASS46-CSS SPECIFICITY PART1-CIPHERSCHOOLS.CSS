@@ -1,5 +1,5 @@
 /* SPECIFICITY */
-/* Style Attribute > ID Selector > Class Selector > Element Selector*/
+/* Inline Style Attribute > ID Selector > Class Selector > Element Selector*/
 h1{
     color: green;
 }
