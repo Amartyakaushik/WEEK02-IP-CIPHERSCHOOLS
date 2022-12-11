@@ -1,0 +1,28 @@
+/* SPECIFICITY */
+/* Style Attribute > ID Selector > Class Selector > Element Selector*/
+h1{
+    color: green;
+}
+
+ /*  " !important " is used to give preference to any selector */ 
+/* #h01{
+    color: blue !important;                           
+} */
+
+#h01{
+    color: blue;                           
+}
+
+/* SPECIFICITY */
+/*  class mentioned with the tag "h1">1st class mentioned > 2nd class mentioned */
+.class1{
+    color: red;
+}
+
+.class2{
+    color: darkmagenta;
+}
+
+h1.class1{
+    color: darkorange;
+}
