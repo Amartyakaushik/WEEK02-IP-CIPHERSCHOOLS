@@ -1,0 +1,33 @@
+/* "PADDING" is the space between content and border */
+/* line no. 7 to 10--> It works clockwise ( padding: top right bottom left) */
+/*line no.11 --> padding:40px; gives equal padding form all side */
+/* line no. 12--> here "10px" is top and bottom padding ,and "40px" is left and right padding  */
+h1{
+    border: 4px solid brown;
+    /* padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 10px;
+    padding-bottom: 10px; */
+    /* padding:40px; */
+    /* padding: 10px 40px; */     
+    padding: 10px 40px 10px 40px; 
+    background-color: lightblue;
+}
+
+/*"margin" is the space outside the border  */
+h1{
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-top: 20px;
+    margin: 20px 100px;
+    margin: 20px 100px 20px 100px;
+}
+
+/* margin: 20px auto;  redirects the element at the center */
+/* text-align: center; redirect the content at the center in the border */
+h2{
+    border: 4px ridge green;
+    width: 500px;
+    margin: 20px auto;
+    text-align: center;
+}
